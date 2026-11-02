@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MUA for Dashboard App</title>
+	<link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<style>
+		
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    background: #f8d9e8;
+}
+
+.full-width-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    object-position: center;
+}
+
+.project-title {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    z-index: 2;
+    color: white;
+    font-size: 42px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+.slider-slide img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .image-container {
+        height: 350px;
+    }
+
+    .project-title {
+        left: 20px;
+        bottom: 25px;
+        font-size: 28px;
+    }
+}
+
+
+
+
+
+
+	</style>
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li><a href="../index.html#contact">contact</a></li>
+			<li>works</li>
+			<li>expertience</li>
+			<li class="empty"></li>
+			<li><a href="profil.html">profil</a></li>
+			<li><a href="https://x.com/anzanul" target="_blank">twitter</a></li>
+			<li>linkedin</li>
+		</ul>
+	</nav>
+
+	<div class="project-container">
+		<div class="image-container">
+			<div class="image-container">
+    <img src="./img/mua.jpg" class="full-width-image" alt="Foto Makeup Artist"
+         onerror="this.alt='Foto tidak ditemukan. Periksa lokasi file m3.jpg';">
+    <h1 class="project-title">User Experience Design<br>for MUA</h1>
+</div>
+			<h1 class="project-title">User Experience Design<br>for MUA</h1>
+		</div>
+		<div class="breadcrumb">
+			<a href="../index.html">Home</a> 
+		</div>
+		<section class="project" style="padding-top: 50px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>MUA</h2>
+						<p>Strategi branding yang tepat adalah kunci untuk membangun citra merek kosmetik bagi wanita. Dengan memahami kebutuhan dan keinginan target pasar, merek dapat menciptakan identitas yang kuat serta menghadirkan kesan modern, elegan, dan terpercaya.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project blue">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2></h2>
+						<p>:</p>
+						<ul>
+							<li>Melalui desain yang menarik, kualitas produk yang unggul, serta storytelling yang autentik, strategi branding bertujuan untuk memperkuat posisi merek di pasar kosmetik yang kompetitif dan membangun hubungan emosional dengan konsumen.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						
+					
+		</section>
+
+		<section class="project blue">
+			<div class="container">
+				<div class="row">
+					
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Project Gallery</h2>
+						<div class="project-slider">
+							<input type="radio" name="slider" id="slide1" class="slider-toggle" checked>
+							<input type="radio" name="slider" id="slide2" class="slider-toggle">
+							<input type="radio" name="slider" id="slide3" class="slider-toggle">
+							
+							<div class="slider-container">
+								<div class="slider-slide">
+									<img src="./img/mua.jpg" alSt="Dashboard App Main Interface">
+								</div>
+								<div class="slider-slide">
+									<img src="./img/m2.jpg" alt="Dashboard App Analytics View">
+								</div>
+								<div class="slider-slide">
+									<img src="./img/m3.jpg" alt="Dashboard App Mobile View">
+								</div>
+							</div>
+							
+							<div class="slider-controls">
+								<label for="slide1" class="slider-dot"></label>
+								<label for="slide2" class="slider-dot"></label>
+								<label for="slide3" class="slider-dot"></label>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+```html
+<!-- SLIDE LUXURY MAKEUP -->
+<section id="luxury-makeup">
+
+    <div class="luxury-title">
+        <p>BEAUTY COLLECTION</p>
+        <h2>Luxury Makeup</h2>
+        <h3>Our Favorite Brands</h3>
+        <p class="luxury-subtitle">
+            Discover the beauty of luxury cosmetics.
+        </p>
+    </div>
+
+    <div class="luxury-container">
+
+        <!-- CHANEL -->
+        <div class="luxury-item">
+
+            <div class="luxury-photo">
+                <img src="./img/chanel-foundation.jpg"
+                     alt="Chanel Foundation">
+            </div>
+
+            <div class="luxury-description">
+                <p>01 — FACE MAKEUP</p>
+                <h3>CHANEL</h3>
+                <p>
+                    Foundation untuk tampilan makeup
+                    yang elegan dan menawan.
+                </p>
+
+                <a href="https://www.chanel.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Discover More ↗
+                </a>
+            </div>
+
+        </div>
+
+        <!-- YSL -->
+        <div class="luxury-item">
+
+            <div class="luxury-photo">
+                <img src="./img/ysl-cushion.jpg"
+                     alt="YSL Cushion">
+            </div>
+
+            <div class="luxury-description">
+                <p>02 — FACE MAKEUP</p>
+                <h3>YVES SAINT LAURENT</h3>
+                <p>
+                    Cushion dengan kemasan mewah
+                    untuk melengkapi koleksi makeup.
+                </p>
+
+                <a href="https://www.yslbeauty.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Discover More ↗
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="luxury-ending">
+        ♡ Beauty is an art, makeup is the expression ♡
+    </div>
+
+</section>
+<!-- AKHIR SLIDE LUXURY MAKEUP -->
+```
+
+
+
+	<footer id="contact">
+		<h2>Interested in<br>
+			learning more?<br>achabo@gmail.com</h2>
+			<p>designed & developed by acha 2007</p>
+		</footer>
+		
+	</body>
+
+	</html>
